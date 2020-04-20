@@ -1,0 +1,157 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+/*.full-height {
+    height: 100vh;
+}*/
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.currency-record{
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+
+.centered-form .panel{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    /*box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;*/
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.conversion-form{
+    padding-bottom: 10px;
+}
+.panel-heading{
+    background-color: #eee;
+    width: 100%;
+}
+
+.panel-body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.space{
+    padding: 10px;
+}
+.submit-button{
+    color: #fff !important;
+}
+
+/*Popup*/
+/*--thank you pop starts here--*/
+.thank-you-pop{
+    width:100%;
+    /*padding:20px;*/
+    text-align:center;
+}
+.thank-you-pop img{
+    width:76px;
+    height:auto;
+    margin:0 auto;
+    display:block;
+    margin-bottom:25px;
+}
+
+.thank-you-pop h1{
+    font-size: 42px;
+    margin-bottom: 25px;
+    color:#5C5C5C;
+}
+.thank-you-pop p{
+    font-size: 20px;
+    margin-bottom: 27px;
+    color:#5C5C5C;
+}
+.thank-you-pop h3.cupon-pop{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color:#222;
+    display:inline-block;
+    text-align:center;
+    padding:10px 20px;
+    border:2px dashed #222;
+    clear:both;
+    font-weight:normal;
+}
+.thank-you-pop h3.cupon-pop span{
+    color:#03A9F4;
+}
+.thank-you-pop a{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 9px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #8BC34A;
+    border-radius: 17px;
+}
+.thank-you-pop a i{
+    margin-right:5px;
+    color:#fff;
+}
+#ignismyModal .modal-header{
+    border:0px;
+}
+/*--thank you pop ends here--*/
+
+.fadein{
+    display: block;
+    opacity: 9;
+}
+.modal{
+    /*top:71px!important;*/
+}
+
+.convert-form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.arithmatic{
+}
